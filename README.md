@@ -9,6 +9,8 @@ Special thanks to the open source bootstrap libraries that made this website pos
 
 Richard's Resume was completed with the help of the learncs8 instructions and help from previous coding experience
 
+Link: https://rickysherb.github.io/RichardSherb-Resume/
+
 ## Cloning
 
 My template is just a clone of another resume sheet provided by CS8. As such, my template may also be used as a clone for others.

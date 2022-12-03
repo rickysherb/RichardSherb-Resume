@@ -478,6 +478,7 @@ ul {
   z-index: 1;
   position: relative;
   height: 500px;
+  width: 500px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -545,8 +546,7 @@ ul {
 }
 
 .portfolio-dimensions {
-  min-width: 100%;
-  position: relative;
+  max-width: 800px;
 }
 
 .portfolio-text {

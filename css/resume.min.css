@@ -472,6 +472,16 @@ ul {
   padding: 50px 0 50px 0;
 }
 
+.portfolio-img {
+  text-align: center;
+  padding: 30px 18px;
+  z-index: 1;
+  position: relative;
+  min-height: 290px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .portfolio-img:before {
   content: "";
@@ -484,4 +494,53 @@ ul {
   z-index: -1;
   -webkit-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
+}
+
+.portfolio-img:hover:before {
+  background-color: rgba(25, 65, 116, 0.8);
+}
+
+.portfolio-img h2 {
+  color: #194174;
+  font-size: 22px;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-weight: 800;
+}
+
+.portfolio-img i {
+  font-size: 45px;
+  color: #194173;
+}
+
+.link-blue {
+  color: #194174;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.link-blue:after {
+  content: "\f101";
+  position: absolute;
+  font-family: "Font Awesome 5 Pro";
+  line-height: 26px;
+  opacity: 0;
+  color: #fff;
+  transition: 0.3s all ease-in-out;
+}
+
+.portfolio-img:hover .link-blue:after {
+  opacity: 1;
+  padding-left: 6px;
+}
+
+.portfolio-img:hover h2,
+.portfolio-img:hover i,
+.portfolio-img:hover p,
+.portfolio-img:hover .link-blue {
+  color: #fff;
+  opacity: 1;
 }

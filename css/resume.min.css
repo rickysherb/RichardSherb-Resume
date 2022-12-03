@@ -502,7 +502,7 @@ ul {
 }
 
 .portfolio-img h2 {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 170, 255);
   font-size: 22px;
   line-height: 32px;
   text-transform: uppercase;
@@ -552,7 +552,7 @@ ul {
 
 .portfolio-text {
   display: block;
-  transform: translateY(1000%);
+  transform: translateY(700%);
   text-align: center;
 }
 

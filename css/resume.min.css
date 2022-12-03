@@ -477,7 +477,7 @@ ul {
   padding: 0;
   z-index: 1;
   position: relative;
-  min-height: 500px;
+  height: 500px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -486,7 +486,7 @@ ul {
 .portfolio-img:before {
   content: "";
   position: absolute;
-  background-color: #0af;
+  background-color: #fff;
   left: 0;
   top: 0;
   width: 100%;
@@ -501,7 +501,7 @@ ul {
 }
 
 .portfolio-img h2 {
-  color: #0af;
+  color: rgb(255, 255, 255);
   font-size: 22px;
   line-height: 32px;
   text-transform: uppercase;
@@ -511,7 +511,7 @@ ul {
 
 .portfolio-img i {
   font-size: 45px;
-  color: #0af;
+  color: rgb(0, 170, 255);
 }
 
 .link-blue {
@@ -540,6 +540,17 @@ ul {
 .portfolio-img:hover i,
 .portfolio-img:hover p,
 .portfolio-img:hover .link-blue {
-  color: rgba(0, 170, 255, 0.5);
+  color: rgb(255, 255, 255);
   opacity: 1;
+}
+
+.portfolio-dimensions {
+  min-width: 100%;
+  position: relative;
+}
+
+.portfolio-text {
+  display: block;
+  transform: translateY(1000%);
+  text-align: center;
 }

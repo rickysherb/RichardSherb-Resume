@@ -555,7 +555,7 @@ ul {
   text-align: center;
 }
 
-.img-link-flex {
+.spacer-images {
   display: flex;
   flex-wrap: wrap;
   align-items: center;

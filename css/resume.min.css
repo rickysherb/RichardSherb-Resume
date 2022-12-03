@@ -463,8 +463,11 @@ ul {
  
   /* (B) ANIMATE ZOOM */
   /* ease | ease-in | ease-out | linear */
-  transition: transform ease-in-out 0.5s;
+  transition: transform ease-in-out 0.3s;
 }
  
 /* (C) ZOOM ON HOVER */
-#zoomA:hover { transform: scale(1.6); }
+#zoomA:hover { 
+  transform: scale(1.6);
+  padding: 50px 0 50px 0;
+}

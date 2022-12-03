@@ -474,7 +474,7 @@ ul {
 
 .portfolio-img {
   text-align: center;
-  padding: 30px 18px;
+  padding: 0;
   z-index: 1;
   position: relative;
   min-height: 500px;
@@ -486,7 +486,7 @@ ul {
 .portfolio-img:before {
   content: "";
   position: absolute;
-  background-color: #fff;
+  background-color: #0af;
   left: 0;
   top: 0;
   width: 100%;
@@ -497,11 +497,11 @@ ul {
 }
 
 .portfolio-img:hover:before {
-  background-color: rgba(25, 65, 116, 0.8);
+  background-color: rgba(0, 170, 255, 0.5);
 }
 
 .portfolio-img h2 {
-  color: #194174;
+  color: #0af;
   font-size: 22px;
   line-height: 32px;
   text-transform: uppercase;
@@ -511,11 +511,11 @@ ul {
 
 .portfolio-img i {
   font-size: 45px;
-  color: #194173;
+  color: #0af;
 }
 
 .link-blue {
-  color: #194174;
+  color: #0af;
   font-size: 14px;
   line-height: 24px;
   font-weight: 600;
@@ -525,10 +525,9 @@ ul {
 .link-blue:after {
   content: "\f101";
   position: absolute;
-  font-family: "Font Awesome 5 Pro";
   line-height: 26px;
   opacity: 0;
-  color: #fff;
+  color: rgb(255, 255, 255);
   transition: 0.3s all ease-in-out;
 }
 
@@ -541,6 +540,6 @@ ul {
 .portfolio-img:hover i,
 .portfolio-img:hover p,
 .portfolio-img:hover .link-blue {
-  color: #fff;
+  color: rgba(0, 170, 255, 0.5);
   opacity: 1;
 }

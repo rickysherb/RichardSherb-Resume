@@ -38,7 +38,6 @@ slideshow-component .slideshow.banner {
 }
 
 .slideshow__text.banner__box {
-  color:black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,4 +203,12 @@ slideshow-component:not(.page-width) .slider-buttons {
   visibility: hidden;
   opacity: 0;
   transform: scale(.8)
+}
+
+.slideshow__text.banner__box1 {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 54.5rem;
 }

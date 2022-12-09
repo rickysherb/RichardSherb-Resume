@@ -472,7 +472,7 @@ ul {
   padding: 50px 0 50px 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   
 .portfolio-img {
   text-align: center;
@@ -566,7 +566,7 @@ ul {
 }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 990px) {
+@media screen and (min-width: 601px) and (max-width: 990px) {
   
   .portfolio-img {
     text-align: center;
@@ -660,7 +660,7 @@ ul {
   }
   }
 
-  @media only screen and (min-width: 991px) {
+  @media screen and (min-width: 991px) {
   
     .portfolio-img {
       text-align: center;

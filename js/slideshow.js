@@ -20,16 +20,16 @@ function showSlides(n, slideshow) {
 
 
   var i;
-  var slides = slideshow.getElementsByClassName("mySlides");
-  var dots = slideshow.getElementsByClassName("dot");
+  var slides = slideshow.getElementsByClassName("mySlides-slideshow");
+  var dots = slideshow.getElementsByClassName("dot-slideshow");
   if (n > slides.length) {slideshow.currentSlideIndex = 1}    
   if (n < 1) {slideshow.currentSlideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+      dots[i].className = dots[i].className.replace(" active-slideshow", "");
   }
   slides[slideshow.currentSlideIndex-1].style.display = "block";  
-  dots[slideshow.currentSlideIndex-1].className += " active";
+  dots[slideshow.currentSlideIndex-1].className += " active-slideshow";
 }

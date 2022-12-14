@@ -2,6 +2,9 @@ var slideshow1 = document.getElementById("slideshow1");
 slideshow1.currentSlideIndex = 1;
 showSlides(slideshow1.currentSlideIndex, slideshow1);
 
+var slideshow2 = document.getElementById("slideshow2");
+slideshow2.currentSlideIndex = 1;
+showSlides(slideshow2.currentSlideIndex, slideshow2);
 
 function plusSlides(n, slideshow) {
   showSlides(slideshow.currentSlideIndex += n, slideshow);

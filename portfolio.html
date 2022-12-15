@@ -248,24 +248,6 @@
             var slideshow2 = document.getElementById("slideshow2");
             slideshow2.currentSlideIndex = 1;
             showSlides(slideshow2.currentSlideIndex, slideshow2);
-
-            function showSlides(n, slideshow) {
-  
-              var i;
-              var slides = slideshow.getElementsByClassName("mySlides-slideshow");
-              var dots = slideshow.getElementsByClassName("dot-slideshow");
-              if (n > slides.length) {slideshow.currentSlideIndex = 1}    
-              if (n < 1) {slideshow.currentSlideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                  slides[i].style.display = "none";  
-              }
-              for (i = 0; i < dots.length; i++) {
-                  dots[i].className = dots[i].className.replace(" active-slideshow", "");
-              }
-              slides[slideshow.currentSlideIndex-1].style.display = "block";  
-              dots[slideshow.currentSlideIndex-1].className += " active-slideshow";
-            }
-            
           </script>
         </div>
 
@@ -338,20 +320,42 @@
           <span class="text-primary">2+ years of Hands on Experience</span>
         </div>
 
-        <div style="display: flex;flex-flow: wrap;justify-content: space-evenly;">
-        <div style="order: 0" class="skill-size resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Coding</h3>
-            <div class="subheading mb-3"><a class="nav-link js-scroll-trigger" href="#portfolio">See More →</a></div>
-            <p>
-              • HTML Proficient<br>
-              • CSS Proficient<br>
-              • Excel VBA & Formulas<br>
-              • MS Office Expertise<br>
-            </p>
+        <div>
+          <div id="slideshow4" class="slideshow-container">
+  
+            <div class="mySlides-slideshow fade-slideshow">
+              <div class="numbertext-slideshow">1 / 2</div>
+              <img src="img/socialmedia/l21c-profile.png" style="max-width: 100%; width: 100vw; height: auto;">
+            </div>
+          
+            <div class="mySlides-slideshow fade-slideshow">
+              <div class="numbertext-slideshow">2 / 2</div>
+              <img src="img/socialmedia/l21c-reel-views.png" style="max-width: 100%; width: 100vw; height: auto;">
+            </div>
+          
+            <a style="color: black;" class="prev-slideshow" onclick="plusSlides(-1, slideshow4)">&#10094;</a>
+            <a style="color: black;" class="next-slideshow" onclick="plusSlides(1, slideshow4)">&#10095;</a>
           </div>
-        </div>
-        </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot-slideshow" onclick="currentSlide(1, slideshow4)"></span>
+            <span class="dot-slideshow" onclick="currentSlide(2, slideshow4)"></span>
+          </div>
+  
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <div class="subheading mb-3">Growing an Instagram Account</div>
+              <div>Studying for MBA in Global Business</div>
+            </div>
+            
+          </div>
+            <script>
+              var slideshow4 = document.getElementById("slideshow4");
+              slideshow4.currentSlideIndex = 1;
+              showSlides(slideshow4.currentSlideIndex, slideshow4);
+            </script>
+          </div>
 
       </div>
     </section>

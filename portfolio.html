@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Richard Sherb - Portfolio</title>
+  <title>Ricky's Portfolio</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -114,33 +114,44 @@
           <span class="text-primary">5+ Years of Hands on Experience</span>
         </div>
 
-        <div style="flex-direction: column;" class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Design Admin / Social Media Admin</h3>
-            <div class="subheading mb-3">
-              <a target="_blank" href="https://tutorgenie.co">Irvine Tutor Genie</a>
+        <div>
+          <div id="slideshow4" class="slideshow-container">
+  
+            <div class="mySlides-slideshow fade-slideshow">
+              <div class="numbertext-slideshow">1 / 2</div>
+              <img src="img/socialmedia/l21c-profile.png" style="max-width: 100%; width: 100vw; height: auto;">
+            </div>
+          
+            <div class="mySlides-slideshow fade-slideshow">
+              <div class="numbertext-slideshow">2 / 2</div>
+              <img src="img/socialmedia/l21c-reel-views.png" style="max-width: 100%; width: 100vw; height: auto;">
+            </div>
+          
+            <a style="color: black;" class="prev-slideshow" onclick="plusSlides(-1, slideshow4)">&#10094;</a>
+            <a style="color: black;" class="next-slideshow" onclick="plusSlides(1, slideshow4)">&#10095;</a>
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot-slideshow" onclick="currentSlide(1, slideshow4)"></span>
+            <span class="dot-slideshow" onclick="currentSlide(2, slideshow4)"></span>
+          </div>
+  
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <div class="subheading mb-3">Growing an Instagram Account</div>
+              <div>Studying for MBA in Global Business</div>
             </div>
             
           </div>
-          
-        </div>
+            <script>
+              var slideshow4 = document.getElementById("slideshow4");
+              slideshow4.currentSlideIndex = 1;
+              showSlides(slideshow4.currentSlideIndex, slideshow4);
+            </script>
+          </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Tech Officer &amp; Social Media Admin</h3>
-            <div class="subheading mb-3"><a target="_blank" href="https://fullerins.com">Fuller Insurance Agency</a></div>
-            <p>
-              • Building Macros on excel, sorting and analyzing spreadsheet data, filing<br> 
-              • Reporting sales analysis to president and remarketing conversions.<br>
-              • Generating and sending out invitations, post cards, and other personalized memorabilia for clients.<br>
-              • mail, answering calls, building/editing the company website, creating ads in photoshop.<br>
-              • facebook, instagram, and google ads and marketing for the company (social media, etc.)<br>
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Oct 2021 - September 2022</span>
-          </div>
-        </div>
+
       </div>
     </section>
 
